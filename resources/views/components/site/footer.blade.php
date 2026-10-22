@@ -57,7 +57,7 @@
                 <h2 class="text-xs font-semibold uppercase tracking-[0.18em] text-white/40">Get in touch</h2>
                 <ul class="mt-5 space-y-3 text-sm">
                     <li>
-                        <x-site.email-link class="text-white/65 transition hover:text-brand-400">wynzyltayag@gmail.com</x-site.email-link>
+                        <x-site.email-link class="text-white/65 transition hover:text-brand-400">support@au2m8dev.com</x-site.email-link>
                     </li>
                     <li>
                         <a href="tel:+639190959251" class="text-white/65 transition hover:text-brand-400">+63 (919) 095-9251</a>

@@ -7,7 +7,7 @@ test('landing pages render successfully', function (string $routeName) {
 
 test('contact page shows the studio contact details', function () {
     $this->get(route('contact'))
-        ->assertSee('wynzyltayag@gmail.com')
+        ->assertSee('support@au2m8dev.com')
         ->assertSee('+63 (919) 095-9251')
         ->assertSee('Poblacion, Urdaneta City, Pangasinan, 2428 Philippines');
 });
@@ -15,7 +15,7 @@ test('contact page shows the studio contact details', function () {
 test('contact page email links open a pre-filled compose window', function () {
     $this->get(route('contact'))
         ->assertSee('mail.google.com/mail/?view=cm', false)
-        ->assertSee('wynzyltayag%40gmail.com', false);
+        ->assertSee('support%40au2m8dev.com', false);
 });
 
 test('site uses the official au2m8 logo assets', function () {
