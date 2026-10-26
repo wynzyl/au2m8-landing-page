@@ -74,6 +74,72 @@
     }
 }
 
+@layer components {
+    .brand-lockup {
+        transform-origin: left center;
+        transition: transform 600ms cubic-bezier(0.22, 1, 0.36, 1);
+        will-change: transform;
+    }
+
+    .brand-lockup .brand-mark {
+        transform-origin: center;
+        animation: brand-mark-drift 7s ease-in-out infinite;
+        transition: filter 600ms ease;
+        will-change: transform;
+    }
+
+    .brand-lockup .brand-wordmark {
+        transform-origin: left center;
+        transition: transform 600ms cubic-bezier(0.22, 1, 0.36, 1);
+        will-change: transform;
+    }
+
+    .brand-lockup:hover,
+    .brand-lockup:focus-visible {
+        transform: scale(1.03);
+    }
+
+    .brand-lockup:hover .brand-mark,
+    .brand-lockup:focus-visible .brand-mark {
+        filter: drop-shadow(0 0 14px rgb(34 211 238 / 0.45));
+    }
+
+    .brand-lockup:hover .brand-wordmark,
+    .brand-lockup:focus-visible .brand-wordmark {
+        transform: translateX(4px);
+    }
+}
+
+@keyframes brand-mark-drift {
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: translateY(-2px) rotate(2deg) scale(1.03);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .brand-lockup,
+    .brand-lockup .brand-mark,
+    .brand-lockup .brand-wordmark {
+        animation: none;
+        transition: none;
+    }
+
+    .brand-lockup:hover,
+    .brand-lockup:focus-visible,
+    .brand-lockup:hover .brand-mark,
+    .brand-lockup:hover .brand-wordmark,
+    .brand-lockup:focus-visible .brand-mark,
+    .brand-lockup:focus-visible .brand-wordmark {
+        transform: none;
+        filter: none;
+    }
+}
+
 [data-flux-field]:not(ui-radio, ui-checkbox) {
     @apply grid gap-2;
 }

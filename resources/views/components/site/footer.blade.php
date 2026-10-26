@@ -11,20 +11,20 @@
     <div class="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
         <div class="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
             <div>
-                <a href="{{ route('home') }}" class="inline-flex items-center gap-3" aria-label="au2m8 home">
+                <a href="{{ route('home') }}" class="brand-lockup inline-flex items-center gap-3" aria-label="au2m8 home">
                     <img
                         src="{{ asset('images/brand/au2m8-mark.png') }}"
                         alt=""
                         width="601"
                         height="493"
-                        class="h-11 w-auto"
+                        class="brand-mark h-11 w-auto"
                     >
                     <img
                         src="{{ asset('images/brand/au2m8-wordmark.png') }}"
                         alt=""
                         width="875"
                         height="172"
-                        class="h-6 w-auto"
+                        class="brand-wordmark h-6 w-auto"
                     >
                 </a>
                 <p class="mt-5 max-w-xs text-sm leading-relaxed text-white/55">

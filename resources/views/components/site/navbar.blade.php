@@ -9,20 +9,20 @@
 
 <header class="sticky top-0 z-50 border-b border-white/10 bg-ink-950/85 backdrop-blur-xl">
     <nav class="mx-auto flex h-18 max-w-7xl items-center justify-between gap-6 px-6 lg:px-8" aria-label="Main navigation">
-        <a href="{{ route('home') }}" class="flex shrink-0 items-center gap-2.5" aria-label="au2m8 home">
+        <a href="{{ route('home') }}" class="brand-lockup flex shrink-0 items-center gap-2.5" aria-label="au2m8 home">
             <img
                 src="{{ asset('images/brand/au2m8-mark.png') }}"
                 alt=""
                 width="601"
                 height="493"
-                class="h-9 w-auto sm:h-10"
+                class="brand-mark h-9 w-auto sm:h-10"
             >
             <img
                 src="{{ asset('images/brand/au2m8-wordmark.png') }}"
                 alt=""
                 width="875"
                 height="172"
-                class="h-[17px] w-auto sm:h-5"
+                class="brand-wordmark h-[17px] w-auto sm:h-5"
             >
         </a>
 
