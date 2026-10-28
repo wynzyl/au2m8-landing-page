@@ -69,8 +69,7 @@
                     <p class="mt-6 text-xs font-semibold uppercase tracking-[0.16em] text-ink-900/40">Address</p>
                     <p class="mt-2 text-lg font-semibold tracking-tight transition group-hover:text-brand-600">Urdaneta
                         City, Pangasinan</p>
-                    <p class="mt-2 text-sm leading-relaxed text-ink-900/50">Poblacion, Urdaneta City, Pangasinan, 2428
-                        Philippines</p>
+                    <p class="mt-2 text-sm leading-relaxed text-ink-900/50">Poblacion, Urdaneta City, Pangasinan, 2428 Philippines</p>
                 </a>
             </div>
         </div>
@@ -139,8 +138,7 @@
                             </div>
                             <div class="flex items-start gap-4">
                                 <dt class="w-20 shrink-0 text-xs uppercase tracking-[0.14em] text-white/35">Address</dt>
-                                <dd class="leading-relaxed text-white/80">Poblacion, Urdaneta City,<br>Pangasinan, 2428
-                                    Philippines</dd>
+                                <dd class="leading-relaxed text-white/80">Poblacion, Urdaneta City, Pangasinan, 2428 Philippines</dd>
                             </div>
                         </dl>
 
