@@ -133,8 +133,8 @@
             @php
                 $team = [
                     ['name' => 'Wenzel', 'role' => 'Lead Developer', 'photo' => 'images/team/me.png'],
-                    ['name' => 'Chel', 'role' => 'UI/UX Designer', 'photo' => 'images/team/Pat.jpg'],
                     ['name' => 'Ian Benedict', 'role' => 'Backend Engineer', 'photo' => 'images/team/Ian.png'],
+                    ['name' => 'Chel', 'role' => 'Documentation Specialist', 'photo' => 'images/team/Pat.jpg'],
                 ];
             @endphp
 
